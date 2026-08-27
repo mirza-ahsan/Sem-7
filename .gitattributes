@@ -1,0 +1,4 @@
+**/books/*.pdf filter=lfs diff=lfs merge=lfs -text
+**/book/*.pdf filter=lfs diff=lfs merge=lfs -text
+**/books/** filter=lfs diff=lfs merge=lfs -text
+**/book/** filter=lfs diff=lfs merge=lfs -text
