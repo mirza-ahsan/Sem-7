@@ -1,8 +1,67 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+*~
+
 # IDEs and Editors
 .zed/
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Information Security - Assignment 1
-Information Security/assignments/assignment-1/**/manual.md
-Information Security/assignments/assignment-1/**/pyrefly.toml
-Information Security/assignments/assignment-1/**/ruff.toml
-Information Security/assignments/assignment-1/**/UNDERSTANDING.md
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# C / C++ / Build Artifacts (PDC & Compiler Construction)
+*.o
+*.obj
+*.out
+a.out
+build/
+dist/
+
+# ML / DL Models & Caches
+*.pt
+*.pth
+*.ckpt
+*.h5
+runs/
+.cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Assignment Specific Files
+**/manual.md
+**/UNDERSTANDING.md
+**/pyrefly.toml
+**/ruff.toml
