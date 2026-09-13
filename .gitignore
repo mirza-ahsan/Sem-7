@@ -1,3 +1,6 @@
+# IDEs and Editors
+.zed/
+
 # Information Security - Assignment 1
 Information Security/assignments/assignment-1/**/manual.md
 Information Security/assignments/assignment-1/**/pyrefly.toml
