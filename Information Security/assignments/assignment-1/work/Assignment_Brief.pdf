@@ -1,0 +1,118 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [5 0 R 7 0 R 9 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 337 >>
+stream
+BT /F2 26 Tf 56 610 Td (Operation Lost Drive) Tj ET
+BT /F1 14 Tf 56 570 Td (Undergraduate Information Security investigation) Tj ET
+BT /F1 11 Tf 56 540 Td (Offline undergraduate Information Security assignment) Tj ET
+0.18 0.34 0.48 rg 56 640 500 5 re f 0 0 0 rg
+BT /F1 8 Tf 50 30 Td (Operation Lost Drive  |  Student brief  |  1/3) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3445 >>
+stream
+0.18 0.34 0.48 rg 46 752 520 2 re f 0 0 0 rg
+BT /F2 14 Tf 50 719 Td (SCENARIO AND OBJECTIVES) Tj ET
+BT /F1 10 Tf 50 701 Td (Northbridge Civic Research is migrating an old workstation. An employee) Tj ET
+BT /F1 10 Tf 50 688 Td (created a recovery archive, but current records and backups became) Tj ET
+BT /F1 10 Tf 50 675 Td (intermingled. Reconstruct the documented recovery procedure, identify relevant) Tj ET
+BT /F1 10 Tf 50 662 Td (ciphertexts, write small Python solvers, recover three intermediate tokens and) Tj ET
+BT /F1 10 Tf 50 649 Td (one final case token, and support every choice with evidence.) Tj ET
+BT /F2 14 Tf 50 627 Td (SCOPE AND TOOLS) Tj ET
+BT /F1 10 Tf 50 609 Td (Work offline with the supplied TXT, CSV, JSON, LOG, Markdown, and HEX files.) Tj ET
+BT /F1 10 Tf 50 596 Td (Internal timestamps and explicit version records are evidence; extracted) Tj ET
+BT /F1 10 Tf 50 583 Td (filesystem and ZIP timestamps are not. Python 3.11+ and a text editor are) Tj ET
+BT /F1 10 Tf 50 570 Td (enough. Do not brute-force unbounded spaces. No forensic suite, internet) Tj ET
+BT /F1 10 Tf 50 557 Td (service, AES, or DES implementation is required.) Tj ET
+BT /F2 14 Tf 50 535 Td (PUBLIC CONVENTIONS) Tj ET
+BT /F1 10 Tf 50 517 Td (The searchable communication-conventions record defines the classical) Tj ET
+BT /F1 10 Tf 50 504 Td (operations. Sensitive bytes use A-P nibble encoding: A=0 through P=15, two) Tj ET
+BT /F1 10 Tf 50 491 Td (letters per byte, high nibble first. This is encoding, not encryption. Rail) Tj ET
+BT /F1 10 Tf 50 478 Td (processing normalises CRLF and CR line endings to LF, then transposes the) Tj ET
+BT /F1 10 Tf 50 465 Td (entire character sequence. The search range is 2-8.) Tj ET
+BT /F2 14 Tf 50 443 Td (REQUIRED SUBMISSION) Tj ET
+BT /F1 10 Tf 50 425 Td (Submit identity.json; mono_solver.py; vigenere_solver.py; rail_solver.py;) Tj ET
+BT /F1 10 Tf 50 412 Td (otp_solver.py; flags.txt; evidence_log.csv; report.pdf; and README.txt.) Tj ET
+BT /F1 10 Tf 50 399 Td (Solvers must use command-line inputs: mono accepts ciphertext and a derived) Tj ET
+BT /F1 10 Tf 50 386 Td (mapping; Vigenere accepts ciphertext and keyword; rail accepts ciphertext and) Tj ET
+BT /F1 10 Tf 50 373 Td (prints every depth 2-8; OTP accepts ciphertext hex and three A-P components.) Tj ET
+BT /F1 10 Tf 50 360 Td (Do not hardcode only the answer. README lists commands and discloses) Tj ET
+BT /F1 10 Tf 50 347 Td (assistance.) Tj ET
+BT /F1 10 Tf 50 334 Td (The evidence log columns are stage, source path, record/line reference,) Tj ET
+BT /F1 10 Tf 50 321 Td (observed clue, inference, next action, result. A concise 3-5 page report is) Tj ET
+BT /F1 10 Tf 50 308 Td (enough. Explain at least two plausible alternatives you rejected. Prefer) Tj ET
+BT /F1 10 Tf 50 295 Td (meaningful excerpts to excessive screenshots.) Tj ET
+BT /F2 14 Tf 50 273 Td (RUBRIC \(100\)) Tj ET
+BT /F1 10 Tf 50 255 Td (Evidence discovery, correlation, and rejected alternatives 25; monoalphabetic) Tj ET
+BT /F1 10 Tf 50 242 Td (analysis and working solver 20; Vigenere key selection and working solver 15;) Tj ET
+BT /F1 10 Tf 50 229 Td (Rail Fence search and justified recovery 10; OTP reconstruction and working) Tj ET
+BT /F1 10 Tf 50 216 Td (decryption 15; four correct tokens 10 \(2 per classical stage, 4 final\); short) Tj ET
+BT /F1 10 Tf 50 203 Td (conceptual reflections 5.) Tj ET
+BT /F1 8 Tf 50 30 Td (Operation Lost Drive  |  Student brief  |  2/3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1807 >>
+stream
+0.18 0.34 0.48 rg 46 752 520 2 re f 0 0 0 rg
+BT /F2 14 Tf 50 719 Td (REFLECTION PROMPTS) Tj ET
+BT /F1 10 Tf 50 701 Td (Why do language frequencies help against substitution? Why does Rail Fence) Tj ET
+BT /F1 10 Tf 50 688 Td (preserve counts? What does OTP key reuse reveal, and not automatically reveal?) Tj ET
+BT /F1 10 Tf 50 675 Td (Why is single DES obsolete? How do confusion and diffusion support modern) Tj ET
+BT /F1 10 Tf 50 662 Td (design without calling a simple transposition strong diffusion?) Tj ET
+BT /F2 14 Tf 50 640 Td (INTEGRITY POLICY - INSTRUCTOR REVIEW REQUIRED BEFORE RELEASE) Tj ET
+BT /F1 10 Tf 50 622 Td (Default policy: tools and AI assistance are permitted only when disclosed in) Tj ET
+BT /F1 10 Tf 50 609 Td (README and when the student can explain every submitted inference and script.) Tj ET
+BT /F1 10 Tf 50 596 Td (Generic algorithm discussion may be shared; another student's ciphertexts,) Tj ET
+BT /F1 10 Tf 50 583 Td (evidence references, keys, and flags are not valid for this package. AI-) Tj ET
+BT /F1 10 Tf 50 570 Td (detection claims are never evidence of misconduct. Your instructor must review) Tj ET
+BT /F1 10 Tf 50 557 Td (and may replace this policy.) Tj ET
+BT /F2 14 Tf 50 535 Td (TROUBLESHOOTING) Tj ET
+BT /F1 10 Tf 50 517 Td (Start with chronology and identifiers. Make a frequency table before) Tj ET
+BT /F1 10 Tf 50 504 Td (completing a substitution mapping. Preserve punctuation and advance Vigenere) Tj ET
+BT /F1 10 Tf 50 491 Td (keys only on letters. Print all Rail Fence candidates. Verify byte lengths) Tj ET
+BT /F1 10 Tf 50 478 Td (before XOR. If blocked, request a logged rescue clue; partial credit remains) Tj ET
+BT /F1 10 Tf 50 465 Td (available for sound later work.) Tj ET
+BT /F1 8 Tf 50 30 Td (Operation Lost Drive  |  Student brief  |  3/3) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000278 00000 n 
+0000000414 00000 n 
+0000000802 00000 n 
+0000000938 00000 n 
+0000004435 00000 n 
+0000004572 00000 n 
+trailer << /Size 11 /Root 1 0 R >>
+startxref
+6432
+%%EOF

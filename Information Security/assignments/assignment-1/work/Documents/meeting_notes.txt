@@ -1,0 +1,1 @@
+Migration meeting: verify backups and preserve internal record timestamps. Catering moved to Friday.

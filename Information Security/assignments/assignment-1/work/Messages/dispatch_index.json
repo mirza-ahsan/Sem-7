@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "DSP-A88CCD",
+    "PROJECT": "CEDAR",
+    "CREATED": "2026-04-11T18:20:00+05:00",
+    "KEYWORD": "TUNDRA",
+    "PATH": "Messages/project_dispatch.txt"
+  },
+  {
+    "ID": "DSP-CURRENT",
+    "PROJECT": "JUNIPER",
+    "CREATED": "2026-04-13T08:00:00+05:00",
+    "KEYWORD": "CANDLE",
+    "PATH": "Messages/current_dispatch.txt"
+  }
+]

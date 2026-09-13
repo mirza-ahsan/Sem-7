@@ -1,0 +1,7 @@
+OPERATION LOST DRIVE
+Scenario: Northbridge Civic Research recovered this archive before a migration. Current and historical records are mixed.
+Objectives: identify the relevant records, recover four tokens and the fictional confidential message, and document an evidence-led chain.
+Scope: work only with supplied readable files; internal UTC+05:00 timestamps are authoritative. Python 3.11+ and ordinary text tools are allowed.
+Starting lead: read the handover material, then correlate the successful transfer immediately before the documented maintenance event. Search the communication conventions when a record names a convention.
+Submission: see Assignment_Brief.md. Keep the required filenames and include commands plus assistance disclosure in README.txt.
+Do not assume filenames, directory order, filesystem times, or the newest-looking keyword determine relevance.

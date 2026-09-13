@@ -1,0 +1,3 @@
+RECOVERY KEY CONVENTION
+Decode each A-P component to bytes. Concatenate ALPHA, then BETA, then GAMMA without separators.
+The result must have exactly the same byte length as final_cipher.hex. Decode hex, XOR corresponding bytes once, and decode the plaintext as UTF-8. Never repeat a component.

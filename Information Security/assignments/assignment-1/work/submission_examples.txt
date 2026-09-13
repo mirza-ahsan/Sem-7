@@ -1,0 +1,4 @@
+FORMAT EXAMPLES ONLY - THESE VALUES ARE FICTIONAL AND WILL NEVER GRADE
+flags.txt lines: ALPHA=EXAMPLE-ALPHA-NOT-A-TOKEN
+identity.json: {"roll_number":"00X-0000","assignment_version":99}
+Commands should resemble: python vigenere_solver.py --input message.txt --keyword EXAMPLE

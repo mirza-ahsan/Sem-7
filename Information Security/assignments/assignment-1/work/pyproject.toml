@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.pyrefly]
+preset = "basic"
+check-unannotated-defs = false
+infer-return-types = "never"
+permissive-ignores = true

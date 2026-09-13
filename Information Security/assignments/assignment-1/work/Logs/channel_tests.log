@@ -1,0 +1,4 @@
+BATCH,MODE,DEPTH,PATH
+BATCH-DEMO,STANDARD_ZIGZAG,2,Archive/demo_channel.txt
+BATCH-6F34,STANDARD_ZIGZAG,4,Archive/rail_payload.txt
+BATCH-ABORT,STANDARD_ZIGZAG,7,Archive/aborted.txt
