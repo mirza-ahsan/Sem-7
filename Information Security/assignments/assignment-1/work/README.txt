@@ -98,28 +98,3 @@ FINAL=OLD-FINAL-E6BA000431D515D9AAA7
 
 Final decrypted message:
 CONFIDENTIAL: fictional recovery confirmed. CASE=8A2D446073 TOKEN=OLD-FINAL-E6BA000431D515D9AAA7
-
-
-4. Assistance disclosure
-
-AI tools were used during this assignment as described below.
-
-Google DeepMind Antigravity AI Assistant:
-- Guidance on script debugging, input validation logic and command-line argument
-  parsing.
-- Help checking the CSV format of the evidence log.
-- Sanity checks of the Rail Fence zigzag bounds and the A-P nibble decoding.
-
-Claude Code (Anthropic, Claude Opus 5):
-- Reviewed the submission against the assignment brief and rubric.
-- Suggested and wrote input validation and edge-case fixes for the four solvers,
-  kept in the student's original code style at the student's request, and
-  checked the type hints.
-- Corrected factual errors in evidence_log.csv and added missing investigation
-  steps, each checked against the supplied records.
-- Rewrote this README.
-- Drafted the LaTeX source used to produce report.pdf.
-
-The student reviewed, ran and tested all submitted scripts. All timeline
-inferences, evidence associations, frequency mapping deductions and token
-recoveries were directed, verified and understood by the student.
