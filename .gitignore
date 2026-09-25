@@ -34,6 +34,15 @@ env/
 ENV/
 env.bak/
 venv.bak/
+assignment*/
+
+# Datasets
+data/
+dataset/
+datasets/
+**/data/
+**/dataset/
+**/datasets/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
@@ -51,8 +60,12 @@ dist/
 *.pth
 *.ckpt
 *.h5
+*.onnx
 runs/
 .cache/
+checkpoints/
+**/checkpoints/
+wandb/
 
 # Environment Variables & Secrets
 .env
